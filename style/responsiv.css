@@ -92,11 +92,46 @@
         width: 100%;
         padding: 0 15px;
     }
+    .burger{
+        display: flex;
+    }
     .nav{
         padding: 1rem;
+        position: relative;
+    }
+    .modal{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+        z-index: 99;
+    }
+    .modal-sec{
+        font-weight: 900;
+        position: absolute;
+        right: 17px;
+        top: 27px;
     }
     .nav2, .nav3{
+        position: absolute;
         display: none;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 999;
+        top: 0;
+        left: 0;
+    }
+    .nav3{
+        left: -221px;
+        top: 180px;
+    }
+    .link{
+        color: #000;
+        font-size: 18px;
+    }
+    ul li{
+        margin-top: 15px;
     }
     .welcome{
         flex-direction: column;

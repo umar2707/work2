@@ -27,6 +27,7 @@ span{
     background-position: center;
     background-repeat: no-repeat;
     min-width: 100%;
+    position: relative;
     height: 100vh;
 }
 .nav{
@@ -37,7 +38,7 @@ span{
 }
 .burger{
     width: 30px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
