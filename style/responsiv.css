@@ -108,6 +108,7 @@
         z-index: 99;
     }
     .modal-sec{
+        display: block;
         font-weight: 900;
         position: absolute;
         right: 17px;
